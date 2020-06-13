@@ -4,7 +4,7 @@ email: sergei@waigant.com
 url: https://github.com/sergeiwaigant
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "IT Infrastructure Architect | SRE & DevOps Engineer | Automation Enthusiast"
 meta_author: Waigant Sergei
 
 # Google webmaster tools
@@ -35,7 +35,7 @@ footer:
   copyright: Sergei Waigant
   location: Location
   social: Around the Web
-  credits: Credits
+  credits: Contact
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -50,11 +50,30 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Vasileos Evagorou 2
+  - line: Kalmby Court 102a
+  - line: 6023 Larnaca - Cyprus
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits:
+  - line: <a href="tel:+49-175-2092782">+49-175-2092782</a>
+  - line: <a href="tel:+357-96-397761">+357-96-397761</a>
+  - line: <a href="mailto:sergei@waigant.com">sergei@waigant.com</a>
+
+# <table style="width:100%; font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 15px;">
+# <tr>
+#   <td width="50%" align="right">phone</td>
+#   <td width="50%" align="left"> <a href="tel:+49-175-2092782">+49-175-2092782</a><br></td>
+# </tr>
+# <tr>
+#   <td width="50%" align="right">phone</td>
+#   <td width="50%" align="left"> <a href="tel:+357-96-397761">+357-96-397761</a><br></td>
+# </tr>
+# <tr>
+#   <td width="50%" align="right">mail</td>
+#   <td width="50%" align="left"> <a href="mailto:sergei@waigant.com">sergei@waigant.com</a></td>
+# </tr>
+# </table>
 
 # Build settings
 markdown: kramdown
