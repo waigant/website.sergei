@@ -1,88 +1,34 @@
-# Site settings
-title: Sergei Waigant
-email: sergei@waigant.com
-url: https://github.com/sergeiwaigant
-description: "Hi there! I am Sergei Waigant and if you think we should collaborate on any project - contact me on any channel and lets have a chat!"
-keywords: "IT,Infrastructure,Architecture,SRE,DevOps,Apache,Kafka,Confluent,CloudBees,Jenkins,Cloud,AWS,Azure,GCP"
-skills: "IT Infrastructure Architect | SRE & DevOps Engineer | Automation & Event Streaming Enthusiast"
-meta_author: Waigant Sergei
+title: Maik Waigant
+description: DevOps Engineer, Systemadministrator / Linux und Windows Administrator
+baseurl: ""
+url: https://piazzai.github.io/cvless
 
-# Google webmaster tools
-google_verify:
+theme: cvless
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# site settings
+taglong: DevOps Engineer, Systemadministrator / Linux und Windows Administrator
+tagshort: "- CV Information"
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-# contact: static
+# author settings
+author:
+  name: Maik Waigant
+  email: maik@waigant.com
+photo: assets/files/photo.jpg
+address: Somewhere in Paphos
+phone: +49 151 10988349
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-# disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Sergei Waigant
-  location: Location
-  social: Around the Web
-  credits: Contact
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# social media links
 social:
-  - title: xing
-    url: https://www.xing.com/profile/Sergei_Waigant
-  - title: linkedin
-    url: https://www.linkedin.com/in/sergeiwaigant/
-  - title: facebook
-    url: https://www.facebook.com/swaigant/
-  - title: github
-    url: https://github.com/sergeiwaigant
+ # facebook: username
+  github: maikwaigant
+ # instagram: username
+  linkedin: maikwaigant
+ # stackoverflow: 0000000/username
+ # x: username
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Somewhere in...
-  - line: 8220 Chloraka
-  - line: Paphos District - Cyprus
-
-# Credits content
-credits:
-  - line: <a href="tel:+49-175-2092782">+49-175-2092782</a>
-  - line: <a href="tel:+357-9420-7678">+357-96-397761</a>
-  - line: <a href="mailto:sergei@waigant.com">sergei@waigant.com</a>
-
-# <table style="width:100%; font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 15px;">
-# <tr>
-#   <td width="50%" align="right">phone</td>
-#   <td width="50%" align="left"> <a href="tel:+49-175-2092782">+49-175-2092782</a><br></td>
-# </tr>
-# <tr>
-#   <td width="50%" align="right">phone</td>
-#   <td width="50%" align="left"> <a href="tel:+357-96-397761">+357-96-397761</a><br></td>
-# </tr>
-# <tr>
-#   <td width="50%" align="right">mail</td>
-#   <td width="50%" align="left"> <a href="mailto:sergei@waigant.com">sergei@waigant.com</a></td>
-# </tr>
-# </table>
-
-# Build settings
-markdown: kramdown
+# build settings
 permalink: pretty
-
-#for posts
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       permalink: ""
+exclude:
+  - docker-compose.yml
+  - LICENSE
+  - README.md
