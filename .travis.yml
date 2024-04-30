@@ -2,6 +2,7 @@ language: ruby
 script:
   - gem install jekyll bundler
   - gem install jekyll-nagymaros
+  - gem install cvless
   - bundle install
   - bundle exec rake test
   - bundle exec jekyll build
