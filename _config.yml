@@ -3,7 +3,7 @@ description: DevOps Engineer, Systemadministrator / Linux und Windows Administra
 baseurl: ""
 url: https://piazzai.github.io/cvless
 
-theme: cvless
+# theme: cvless
 
 # site settings
 taglong: DevOps Engineer, Systemadministrator / Linux und Windows Administrator
